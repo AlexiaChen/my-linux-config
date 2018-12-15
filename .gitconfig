@@ -1,0 +1,36 @@
+[user]
+  name = MathxH Chen
+  email = brainfvck@foxmail.com
+
+[color "branch"]
+  current = yellow bold
+  local = green bold
+  remote = cyan bold
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+
+[color "status"]
+  added = green bold
+  changed = yellow bold
+  untracked = red bold
+
+[gitflow "prefix"]
+  feature = feature-
+  release = release-
+  hotfix = hotfix-
+  support = support-
+  ersiontag = v
+
+[alias]
+  co = checkout
+  c = commit
+  st = status
+  br = branch
+  pl = pull
+  p = push
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
